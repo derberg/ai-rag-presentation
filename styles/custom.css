@@ -1,0 +1,137 @@
+/* =========================
+   FONT SETUP
+   ========================= */
+.slidev {
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  background: radial-gradient(
+      1200px 600px at 50% -200px,
+      #143a66 0%,
+      #081a2f 40%,
+      #050e1a 100%
+  );
+  color: #d6e4f0;
+}
+
+/* =========================
+   COLORS (from screenshot)
+   ========================= */
+:root {
+  --c-bg-dark: #050e1a;
+  --c-bg-card: #0b1f36;
+  --c-border: rgba(120, 180, 255, 0.25);
+  --c-primary: #4da3ff;
+  --c-accent: #f4b000;
+  --c-text-muted: #9fb4c9;
+}
+
+/* =========================
+   HEADINGS
+   ========================= */
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+h1, h2 {
+  color: #eaf3ff;
+  text-shadow: 0 0 20px rgba(77, 163, 255, 0.25);
+}
+
+/* =========================
+   BODY TEXT
+   ========================= */
+p {
+  color: var(--c-text-muted);
+  line-height: 1.6;
+}
+
+/* =========================
+   HERO TITLE
+   ========================= */
+.hero-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  max-width: 14ch;
+}
+
+/* =========================
+   CARD STYLE
+   ========================= */
+.card {
+  background:
+    linear-gradient(
+      180deg,
+      rgba(255,255,255,0.04),
+      rgba(255,255,255,0)
+    ),
+    var(--c-bg-card);
+  border: 1px solid var(--c-border);
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow:
+    0 0 0 1px rgba(77,163,255,0.05),
+    0 20px 40px rgba(0,0,0,0.5);
+}
+
+/* =========================
+   CARD TITLE
+   ========================= */
+.card h3 {
+  color: #FFB31B;
+  font-weight: 600;
+  margin-bottom: rem;
+}
+
+/* =========================
+   GRID LAYOUT
+   ========================= */
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+/* =========================
+   STAT NUMBER
+   ========================= */
+.stat {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--c-primary);
+}
+
+/* =========================
+   CYBER BORDER GLOW
+   ========================= */
+.glow {
+  box-shadow:
+    0 0 0 1px rgba(77,163,255,0.2),
+    0 0 30px rgba(77,163,255,0.15);
+}
+
+/* =========================
+   SUBTLE GRID OVERLAY
+   ========================= */
+.slidev::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background:
+    linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
+  background-size: 80px 80px;
+  pointer-events: none;
+  opacity: 0.15;
+}
