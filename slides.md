@@ -443,13 +443,11 @@ class: text-center
 
 </div>
 
-<div class="chunks-view" style="position: relative; min-height: 400px; margin-top: 1rem; text-align: left;">
-
-<div v-click="[2, 3]" style="position: absolute; width: 100%; max-width: 760px; left: 50%; transform: translateX(-50%);">
+<div class="chunks-view" style="max-width: 780px; margin: 1.25rem auto 0; text-align: left;">
 
 **📝 Prose**
 
-```json {3,4}
+```json {3,4|6-8}
 {
   "chunk_id": "c4ce5efe…382289e",
   "chunk_type": "prose",
@@ -466,62 +464,31 @@ class: text-center
 
 </div>
 
-<div v-click="[3, 4]" style="position: absolute; width: 100%; max-width: 760px; left: 50%; transform: translateX(-50%);">
+</div>
 
-**📝 Prose**
+---
+transition: fade-out
+class: text-center
+---
 
-```json {6-8}
-{
-  "chunk_id": "c4ce5efe…382289e",
-  "chunk_type": "prose",
-  "content": "## Multiple channels with single message when reply address is known\n\nThe request/reply pattern can also be implemented over multiple channels with a single message…",
-  "line_start": null,
-  "metadata": {
-    "source_url": "https://www.asyncapi.com/docs/concepts/asyncapi-document/reply-info"
-  },
-  "source_file": ".opencrane/llmstxt/llms-full.txt",
-  "source_name": "asyncapi-website",
-  "token_count": 74
-}
-```
+<style>
+.chunks-view .slidev-code { font-size: 0.6rem !important; line-height: 1.3 !important; }
+.chunks-view .slidev-code .line { white-space: pre-wrap; word-break: break-all; }
+</style>
+
+<div class="card">
+
+<div class="text-center">
+
+### Chunks
 
 </div>
 
-<div v-click="[4, 5]" style="position: absolute; width: 100%; max-width: 760px; left: 50%; transform: translateX(-50%);">
+<div class="chunks-view" style="max-width: 780px; margin: 1.25rem auto 0; text-align: left;">
 
 **📋 List item**
 
-```json {3,4}
-{
-  "chunk_id": "43ca503b…92cd7ef",
-  "chunk_type": "list_item",
-  "content": "1. The **Generator** receives the **AsyncAPI Document** as input.",
-  "line_start": null,
-  "metadata": {
-    "breadcrumb_path": ".../asyncapi-document AsyncAPI document generation process",
-    "depth": 0,
-    "list_id": "7222577c705f7892",
-    "list_style": "ordered",
-    "parent_item_id": null,
-    "position": 1,
-    "sibling_ids": ["9714fd50…d554292", "b9728c45…fe3aca0", "0616eda6…59fbd81", "bc681ae6…eeea7a4", "537dc8cb…f176ba6"],
-    "sibling_previews": ["2. The **Generator** sends to…", "3. The **Parser** validates t…", "4. If the **Parser** determin…", "5. At this point, the **Gener…", "6. The **Template Context** i…"],
-    "source_url": "https://www.asyncapi.com/docs/tools/generator/asyncapi-document",
-    "total_siblings": 6
-  },
-  "source_file": ".opencrane/llmstxt/llms-full.txt",
-  "source_name": "asyncapi-website",
-  "token_count": 37
-}
-```
-
-</div>
-
-<div v-click="[5, 6]" style="position: absolute; width: 100%; max-width: 760px; left: 50%; transform: translateX(-50%);">
-
-**📋 List item**
-
-```json {6-17}
+```json {3,4|6-17}
 {
   "chunk_id": "43ca503b…92cd7ef",
   "chunk_type": "list_item",
@@ -547,11 +514,31 @@ class: text-center
 
 </div>
 
-<div v-click="[6, 7]" style="position: absolute; width: 100%; max-width: 760px; left: 50%; transform: translateX(-50%);">
+</div>
+
+---
+transition: fade-out
+class: text-center
+---
+
+<style>
+.chunks-view .slidev-code { font-size: 0.6rem !important; line-height: 1.3 !important; }
+.chunks-view .slidev-code .line { white-space: pre-wrap; word-break: break-all; }
+</style>
+
+<div class="card">
+
+<div class="text-center">
+
+### Chunks
+
+</div>
+
+<div class="chunks-view" style="max-width: 780px; margin: 1.25rem auto 0; text-align: left;">
 
 **🗂️ JSON Schema**
 
-```json {3,4-8}
+```json {3,4-8|10-22}
 {
   "chunk_id": "1fcc25de…395bb4",
   "chunk_type": "json_schema",
@@ -579,43 +566,6 @@ class: text-center
   "token_count": 17
 }
 ```
-
-</div>
-
-<div v-click="7" style="position: absolute; width: 100%; max-width: 760px; left: 50%; transform: translateX(-50%);">
-
-**🗂️ JSON Schema**
-
-```json {10-22}
-{
-  "chunk_id": "1fcc25de…395bb4",
-  "chunk_type": "json_schema",
-  "content": {
-    "description": "A unique id representing the application.",
-    "format": "uri",
-    "type": "string"
-  },
-  "line_start": null,
-  "metadata": {
-    "breadcrumb_path": "properties.id",
-    "logical_parent": "root",
-    "neighbor_chunks": ["bdf39a6c…294dec3", "6dad8d11…1c2c319", …],
-    "original_format": "yaml",
-    "property_name": "id",
-    "property_path": "id",
-    "schema_element": "properties",
-    "schema_title": "AsyncAPI 3.1.0 schema.",
-    "schema_type": "json_schema",
-    "schema_version": "http://json-schema.org/draft-07/schema",
-    "source_url": "https://github.com/asyncapi/website/blob/master/config/3.1.0.json"
-  },
-  "source_file": ".opencrane/llmstxt/llms-full.txt",
-  "source_name": "asyncapi-json-schema",
-  "token_count": 17
-}
-```
-
-</div>
 
 </div>
 

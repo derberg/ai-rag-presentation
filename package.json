@@ -6,7 +6,7 @@
   "scripts": {
     "build": "slidev build",
     "dev": "slidev --open",
-    "export": "slidev export --with-clicks --dark --timeout 60000"
+    "export": "slidev export --dark --timeout 60000"
   },
   "dependencies": {
     "@slidev/cli": "^51.6.0",
