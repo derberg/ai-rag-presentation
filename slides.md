@@ -14,15 +14,8 @@ mdc: true
 <br>
 
 ## <span style="font-size: 1.2rem;">PART I - THEORY</span>
-
+  
 </div>
-
----
-transition: fade-out
-layout: image
-image: /szmaragdy.png
-backgroundSize: contain
----
 
 ---
 transition: fade-out
@@ -290,19 +283,13 @@ class: text-center
 
 </div>
 
-<div style="margin-top: 1rem;">
-
-<img src="/asyncapi-logo.png" alt="AsyncAPI" style="max-height: 60px; height: auto; margin: 0 auto; display: block;">
-
-</div>
-
-<div class="grid-2" style="margin-top: 1.5rem; align-items: stretch;">
+<div class="grid-2" style="margin-top: 1.5rem; align-items: center;">
 
 <v-click>
 
-<div class="card">
+<div style="text-align: center;">
 
-Did it learn from <strong>asyncapi.com</strong> when it was still describing <strong>2.x</strong>?
+<img src="/gpt.png" alt="ChatGPT answer about AsyncAPI" style="max-height: 380px; height: auto; margin: 0 auto; display: block; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 
 </div>
 
@@ -310,21 +297,15 @@ Did it learn from <strong>asyncapi.com</strong> when it was still describing <st
 
 <v-click>
 
-<div class="card">
+<div style="text-align: center;">
 
-Or after <strong>v3</strong> was released?
+<img src="/asyncapi.png" alt="AsyncAPI" style="max-height: 380px; height: auto; margin: 0 auto; display: block; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 
 </div>
 
 </v-click>
 
 </div>
-
-<v-click>
-
-<p style="margin-top: 1.25rem;">…and does it also know about <strong>JSON Schema</strong>?</p>
-
-</v-click>
 
 </div>
 
@@ -1066,6 +1047,7 @@ class: text-center
 <div style="display: inline-block; text-align: left; margin-top: 1.5rem; font-size: 1.1rem; line-height: 2;">
 
 - 🏗️ [https://github.com/derberg/OpenCrane/](https://github.com/derberg/OpenCrane/)
+- 🧩 [https://github.com/derberg/asyncapi-knowledge-mcp](https://github.com/derberg/asyncapi-knowledge-mcp)
 - 📊 [https://github.com/derberg/eval-bench](https://github.com/derberg/eval-bench)
 - 🖥️ [https://github.com/derberg/ai-rag-presentation](https://github.com/derberg/ai-rag-presentation)
 - 📄 [https://github.com/derberg/ai-rag-presentation/blob/main/slides-export.pdf](https://github.com/derberg/ai-rag-presentation/blob/main/slides-export.pdf)
