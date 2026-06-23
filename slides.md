@@ -97,35 +97,13 @@ class: text-center
 
 <div style="margin-top: 0.5rem; position: relative; min-height: 300px;">
 
-<div v-click="[2, 3]" style="position: absolute; width: 100%;">
+<div v-click="2" style="position: absolute; width: 100%;">
 
 **Chat AI:**
 
 <div style="margin-top: 1rem;">
 
 <img src="/chat.png" alt="Chat AI Flow" style="max-width: 100%; height: auto; border: 3px solid #666; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-
-</div>
-
-</div>
-
-<div v-click="[3, 4]" style="position: absolute; width: 100%;">
-
-<div style="margin-top: 1rem; text-align: center;">
-
-<img src="/css.gif" alt="My skills" style="max-width: 100%; max-height: 300px; height: auto; margin: 0 auto; display: block; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-
-</div>
-
-</div>
-
-<div v-click="4" style="position: absolute; width: 100%;">
-
-**zatyrani.pl:**
-
-<div style="margin-top: 0.5rem; text-align: center;">
-
-<img src="/zatyrani.png" alt="zatyrani.pl" style="max-width: 100%; max-height: 250px; height: auto; margin: 0 auto; display: block; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 
 </div>
 
