@@ -7,6 +7,7 @@ mdc: true
 ---
 
 <img src="/bg-cennso.jpg" alt="" class="slide-bg-cover">
+<div class="slide-bg-scrim"></div>
 
 <div style="margin-top: -4rem;">
 
