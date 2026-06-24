@@ -447,13 +447,9 @@ class: text-center
 
 <div class="chunks-view" style="max-width: 780px; margin: 1.25rem auto 0; text-align: left;">
 
-<v-click>
+<div v-click>
 
 **📝 Prose**
-
-</v-click>
-
-<v-click>
 
 ```json {3,4|6-8}
 {
@@ -470,7 +466,7 @@ class: text-center
 }
 ```
 
-</v-click>
+</div>
 
 </div>
 
@@ -496,13 +492,9 @@ class: text-center
 
 <div class="chunks-view" style="max-width: 780px; margin: 1.25rem auto 0; text-align: left;">
 
-<v-click>
+<div v-click>
 
 **📋 List item**
-
-</v-click>
-
-<v-click>
 
 ```json {3,4|6-17}
 {
@@ -528,7 +520,7 @@ class: text-center
 }
 ```
 
-</v-click>
+</div>
 
 </div>
 
@@ -554,13 +546,9 @@ class: text-center
 
 <div class="chunks-view" style="max-width: 780px; margin: 1.25rem auto 0; text-align: left;">
 
-<v-click>
+<div v-click>
 
 **🗂️ JSON Schema**
-
-</v-click>
-
-<v-click>
 
 ```json {3,4-8|10-22}
 {
@@ -591,7 +579,7 @@ class: text-center
 }
 ```
 
-</v-click>
+</div>
 
 </div>
 
