@@ -3,9 +3,10 @@ theme: default
 title: Hallucinating our way to AI-backed documentation
 class: text-center
 transition: slide-left
-background: bg-cennso.jpg
 mdc: true
 ---
+
+<img src="/bg-cennso.jpg" alt="" class="slide-bg-cover">
 
 <div style="margin-top: -4rem;">
 

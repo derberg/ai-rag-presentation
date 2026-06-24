@@ -122,6 +122,21 @@ p {
 }
 
 /* =========================
+   FULL-BLEED SLIDE BACKGROUND
+   (replaces frontmatter `background:` so the
+    image goes through Vite and is base-path aware)
+   ========================= */
+.slide-bg-cover {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  pointer-events: none;
+}
+
+/* =========================
    SUBTLE GRID OVERLAY
    ========================= */
 .slidev::before {
