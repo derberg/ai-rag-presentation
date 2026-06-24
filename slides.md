@@ -447,7 +447,11 @@ class: text-center
 
 <div class="chunks-view" style="max-width: 780px; margin: 1.25rem auto 0; text-align: left;">
 
+<v-click>
+
 **📝 Prose**
+
+</v-click>
 
 ```json {3,4|6-8}
 {
