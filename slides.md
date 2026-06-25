@@ -66,6 +66,41 @@ class: text-center
 
 <div class="text-center">
 
+# Will AI replace technical writers?
+
+<v-click>
+
+<div style="margin-top: 2rem; font-size: 3rem; font-weight: 800;">
+
+<span style="font-size: 1.2rem; font-weight: 400; opacity: 0.7;">tl;dr</span> NO
+
+</div>
+
+</v-click>
+
+<v-click>
+
+<div style="margin-top: 1.5rem; font-size: 1rem;">
+
+[willaireplacetechnicalwriters.com](https://www.willaireplacetechnicalwriters.com/)
+
+</div>
+
+</v-click>
+
+</div>
+
+</div>
+
+---
+transition: fade-out
+class: text-center
+---
+
+<div class="card">
+
+<div class="text-center">
+
 ### The big words
 
 </div>
